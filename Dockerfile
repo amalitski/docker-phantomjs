@@ -2,7 +2,7 @@ FROM ubuntu:trusty
 MAINTAINER Andrew Malitski <andrew-writer@mail.ru>
 
 # Install phantomjs. See http://phantomjs.org/download.html
-ENV PHANTOMJS_NAME="phantomjs-1.9.8-linux-x86_64"
+ENV PHANTOMJS_NAME="phantomjs-1.9.7-linux-x86_64-symbols"
 RUN apt-get update -qq && apt-get install -y curl libfontconfig > /dev/null
 RUN cd /tmp && curl -s -o phantomjs.tar.bz2 -L https://bitbucket.org/ariya/phantomjs/downloads/${PHANTOMJS_NAME}.tar.bz2 && \
     tar xvjf phantomjs.tar.bz2 && mv ${PHANTOMJS_NAME}/bin/phantomjs /usr/local/bin && \
