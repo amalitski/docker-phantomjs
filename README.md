@@ -15,6 +15,9 @@ Having more issues? Report a bug on [GitHub](https://github.com/andrewpro/docker
 
 ### Links
 [PhantomJS official homepage](http://phantomjs.org)
+
 [Build phantomjs](http://phantomjs.org/build.html)
+
 [Docker Compose](https://docs.docker.com/compose/)
+
 [Repository with phantomjs](https://hub.docker.com/r/andrewpro/phantomjs/)
