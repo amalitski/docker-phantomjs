@@ -1,6 +1,7 @@
 # PhantomJS
 
 <img src="http://phantomjs.org/img/phantomjs-logo.png" align="right">
+[![](https://imagelayers.io/badge/andrewpro/phantomjs:latest.svg)](https://imagelayers.io/?images=andrewpro/phantomjs:latest 'Get your own badge on imagelayers.io')
 
 PhantomJS is a headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG.
 
